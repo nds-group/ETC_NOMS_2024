@@ -21,13 +21,13 @@ The use cases considered in the paper are:
 - Encrypted instant messaging application fingerprinting with 6 classes, based on the <a href="https://ieee-dataport.org/documents/encrypted-mobile-instant-messaging-traffic-dataset">Encrypted Instant Messaging Dataset</a> made available by the NIMS Lab.
 - VPN traffic classification, distinguishing 7 classes. It is based on the <a href="https://www.unb.ca/cic/datasets/vpn.html">ISCX-VPN-NonVPN-2016 Dataset</a>.
 
-We provide the python and P4 code for the Netflow QUIC traffic classification use case with 5 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases. You can access the train/test files for this example from this<a href="#">Box folder</a>.
+We provide the python and P4 code for the Netflow QUIC traffic classification use case with 5 classes. <br> The same approach for feature/model selection and encoding to P4 applies to all the use cases. You can access the train/test files for this example from this <a href="#">Box folder</a>.
 
 ## Citation
 If you make use of this code, kindly cite our paper:  
 ```
-@inproceedings{jewel-2024,
-author = {Akem, Aristide Tanyi-Jong and Fraysse, Guillaume and and Fiore, Marco},
+@inproceedings{etc-noms-2024,
+author = {Akem, Aristide Tanyi-Jong and Fraysse, Guillaume and Fiore, Marco},
 title = {Encrypted Traffic Classification at Line Rate in Programmable Switches with Machine Learning},
 year = {2024},
 publisher = {},
