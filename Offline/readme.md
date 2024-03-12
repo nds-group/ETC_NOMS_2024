@@ -1,0 +1,5 @@
+- use the _Nims2023_Data_Analysis.ipynb_ file to analyze, train and save models.
+- use the _generate_table_entries.py_ file to convert the trained and saved model into table entries for the switch.
+- the _NIMS_IMA_sample_data.csv_ contains one day of data (8 November 2022) used for the analysis to shorten duration of in-switch experiments.
+- the _test_data_nimsIMA.csv_ contains the test data needed to create table entries for the flow table in the switch.
+- the noms2024_20_5.pkl is a sample trained and saved RF model with trees of maximum depth 20, 5 trees and 4 features.

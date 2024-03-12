@@ -1,0 +1,13 @@
+To run the code:
+- check the code and change the forwarding port 260 to the right one in your setup
+- compile the P4 code
+    - we used the Intel SDE version 9.7.0
+- load the code onto the switch using _bf_switchd_
+- load the table entries in the _table_entries.py_ file using _bfrt_python_
+    - this also configures and brings up ports 1, 5 and 9 (56, 260, 292) which we use.
+    - modify them according to your setup.
+- run the _controller_digest_noms.py_ script to enable the controller to collect packet digests with classification results, clean registers after flows are classified, and update the flow table. 
+    - give your output csv file as an argument to this script when running it.
+- send packets from the pcap files through the switch using tcpreplay
+    - the current configuration has a filter table in the P4 program that will filter only the flows belonging to the test data for classification in order to easily compare them with the offline results.
+- use the function at the end of the _NIMS2023_Data_Analysis.ipynb_ notebook to analyze the csv obtained at the controller at the end of the experiment.
