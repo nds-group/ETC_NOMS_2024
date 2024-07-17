@@ -12,8 +12,8 @@ For full details, please consult [our paper](https://dspace.networks.imdea.org/b
 ## Organization of the repository  
 There are two folders:  
 <!-- - _Data_ : information on how to access the data  -->
-- _Switch_ : the P4 code for the Tofino switch, the M/A table entries, and the runtime controller code.
-- _Offline_ : the jupyter notebooks for training the machine learning models and for offline evaluation, and the scripts for generating the M/A table entries from trained models.
+- _In_switch_ETC_ : the python and P4 code for the training and encoding of the in-switch RF models for RF.
+- _Offline_ETC_ : the python code for the offline data analysis and ETC modelling process.
 
 ## Use cases
 The use cases considered in the paper are: 
@@ -27,14 +27,15 @@ We provide the python and P4 code for the Encrypted Instant Messaging App classi
 If you make use of this code, kindly cite our paper:  
 ```
 @inproceedings{etc-noms-2024,
-author = {Akem, Aristide Tanyi-Jong and Fraysse, Guillaume and Fiore, Marco},
-title = {Encrypted Traffic Classification at Line Rate in Programmable Switches with Machine Learning},
-year = {2024},
-booktitle = {Proceedings of NOMS 2024 - IEEE/IFIP Network Operations and Management Symposium},
-numpages = {9},
-location = {Seoul, South Korea},
-series = {NOMS 2024}
-}
+  author={Akem, Aristide Tanyi-Jong and Fraysse, Guillaume and Fiore, Marco},
+  booktitle={NOMS 2024-2024 IEEE Network Operations and Management Symposium}, 
+  title={Encrypted Traffic Classification at Line Rate in Programmable Switches with Machine Learning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-9},
+  doi={10.1109/NOMS59830.2024.10575394}}
+
 ```
 
 If you need any additional information, send us an email at _aristide.akem_ at _imdea.org_.
