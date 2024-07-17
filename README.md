@@ -9,6 +9,8 @@ This work leverages recent advances in data plane programmability to achieve rea
 
 For full details, please consult [our paper](https://dspace.networks.imdea.org/bitstream/handle/20.500.12761/1791/etc_noms24_postprint.pdf?sequence=1&isAllowed=y).
 
+An extended version is currently in submission as an invited paper to a journal.
+
 ## Organization of the repository  
 There are two folders:  
 <!-- - _Data_ : information on how to access the data  -->
