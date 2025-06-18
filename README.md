@@ -11,8 +11,6 @@ For full details, please consult our:
 - [Conference paper: Encrypted Traffic Classification at Line Rate in Programmable Switches with Machine Learning](https://dspace.networks.imdea.org/bitstream/handle/20.500.12761/1791/etc_noms24_postprint.pdf?sequence=1&isAllowed=y);
 - [Journal paper: Real-Time Encrypted Traffic Classification in Programmable Networks with P4 and Machine Learning](https://onlinelibrary.wiley.com/doi/epdf/10.1002/nem.2320);
 
-An extended version is currently in submission as an invited paper to a journal.
-
 ## Organization of the repository  
 There are two folders:  
 <!-- - _Data_ : information on how to access the data  -->
